@@ -149,7 +149,7 @@ body{
 
   @media screen and (max-width: 992px) {
     .hero .me {
-      height: 25vh;
+      height: 30vh;
       width: 100vw;
     }
 
