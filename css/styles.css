@@ -8,7 +8,7 @@
 body{
   background-image: url(../medias/background.png);
   background-size: 100vw;
-
+  
 }
   
 .navbar {
@@ -236,7 +236,6 @@ body{
     align-items: center;
     padding-top: 50vh;
     padding-bottom: 20vh;
-    font-size: 4vw;
   }
 }
 
