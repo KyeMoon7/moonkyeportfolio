@@ -190,15 +190,6 @@ body{
     }
   }
 
-   @media screen and (min-width: 1400px) {
-    .container .objectifText{
-      width: 50vw;
-       font-size: 2vw;
-       margin-left: 0;
-
-    }
-  }
-
   
   .objectifText {
     font-size: 40px;
