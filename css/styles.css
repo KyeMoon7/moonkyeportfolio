@@ -11,8 +11,8 @@ body{
 }
   
 .navbar {
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    height: 10vh;
     font-size: 25px;
     background-color: #000;
     font-family: "Tektur", sans-serif;
@@ -149,7 +149,7 @@ body{
 
   @media screen and (max-width: 992px) {
     .hero .me {
-      height: 40vh;
+      height: 25vh;
       width: 100vw;
     }
 
@@ -346,6 +346,8 @@ footer svg:hover {
 .footer-icons a {
   padding-right: 2em;
 }
+
+
 
 .project-title{
   margin-top: 10vh;
