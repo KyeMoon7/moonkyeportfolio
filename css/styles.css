@@ -306,7 +306,8 @@ body{
   font-size: 60px;
   font-weight: bold;
   color: var(--primary);
-    text-decoration: underline;
+  text-decoration: underline;
+  
 }
 
 footer {
