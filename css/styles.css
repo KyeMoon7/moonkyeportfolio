@@ -194,41 +194,22 @@ body{
 
   
   .objectifText {
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
+  font-size: 80px;
+  text-align: center;
+}
 
-  }
-  
-   .objectifText a{
-    text-decoration: none;
-    color: var(--third);
-  }
+.objectif {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
 
-  .objectifText a:hover{
-    text-decoration: none;
-    color: var(--secondary);
-    transition: .3s;
-  }
-
-  
- 
-
-  .objectif {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-
- 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .objectifText {
-    font-size: 4vw;
-    
+    font-size: 6vw;
+    top: 20%;
   }
 }
 @media screen and (min-width: 2300px) {
