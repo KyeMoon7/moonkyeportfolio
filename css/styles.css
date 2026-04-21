@@ -224,7 +224,7 @@ body{
 
 @media screen and (max-width: 992px) {
   .objectifText {
-    font-size: 6vw;
+    font-size: 4vw;
     top: 20%;
   }
 }
