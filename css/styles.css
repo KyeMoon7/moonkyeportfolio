@@ -87,7 +87,9 @@ body{
    opacity: 1;
   }
 
-
+.hero .container {
+  width: 100vw;
+}
   .hero {
     height: 100vh;
     object-fit: cover;
