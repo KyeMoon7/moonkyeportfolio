@@ -5,7 +5,12 @@
     --fourth:#ff206e;
   }
 
-
+body{
+  background-image: url(../medias/background.png);
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+  
 .navbar {
     width: 100%;
     height: 15%;
