@@ -8,7 +8,7 @@
 body{
   background-image: url(../medias/background.png);
   background-size: 100vw;
-  
+
 }
   
 .navbar {
@@ -190,6 +190,15 @@ body{
     }
   }
 
+   @media screen and (min-width: 1400px) {
+    .container .objectifText{
+      width: 50vw;
+       font-size: 2vw;
+       margin-left: 0;
+
+    }
+  }
+
   
   .objectifText {
     font-size: 40px;
@@ -236,6 +245,7 @@ body{
     align-items: center;
     padding-top: 50vh;
     padding-bottom: 20vh;
+    font-size: 4vw;
   }
 }
 
