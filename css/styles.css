@@ -118,7 +118,7 @@ body{
   .hero .introduction {
     font-size: 2vw;
     top: 55%;
-    left: 30%;
+    left: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
     color: white;
@@ -148,20 +148,17 @@ body{
 
   @media screen and (max-width: 992px) {
     .hero .introduction {
-      
       font-size: 4vw;
-      left: 30%;
-      top: 27%;
 
     }
     .hero .me{
-      position: absolute;
       width: 100vw;
-            display: flex;
-      align-items: center;
     }
 
-   
+   .hero{
+    display: block;
+    height: 35vh;
+   }
  
     
   }
@@ -174,6 +171,9 @@ body{
       object-fit: cover;
       object-position: 50% 50%;
     }
+    section.objectif{
+      padding-top: 0px;
+   }
   }
   @media screen and (max-width: 1400px) {
     .hero .me {
@@ -182,6 +182,14 @@ body{
       object-position: 50% 50%;
 
     }
+    .hero .introduction{
+    display: block;
+    width: 60vw;
+   }
+   .hero{
+    height: 50vh;
+   }
+   
   }
 
   @media screen and (min-width: 1400px) {
@@ -229,10 +237,15 @@ body{
 
  
   @media screen and (max-width: 992px) {
+    .objectif {
+
+    padding: 5vh 0;
+  }
   .objectifText {
     font-size: 4vw;
-    top: 20%;
+
   }
+
 }
 @media screen and (min-width: 2300px) {
   .objectif {
