@@ -12,7 +12,7 @@ body{
   
 .navbar {
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     font-size: 25px;
     background-color: #000;
     font-family: "Tektur", sans-serif;
@@ -142,7 +142,7 @@ body{
     .hero .introduction {
       font-size: 4vw;
       left: 30vw;
-      top: 50vh;
+      top: 27vh;
 
     }
   }
