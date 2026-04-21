@@ -304,9 +304,8 @@ body{
 
 .contact-title{
   font-size: 60px;
-  text-shadow: 4px 4px var(--primary);
   font-weight: bold;
-  color: var(--third);
+  color: var(--primary);
     text-decoration: underline;
 }
 
