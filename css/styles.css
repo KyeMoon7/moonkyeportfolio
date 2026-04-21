@@ -164,7 +164,7 @@ body{
 
   @media screen and (min-width: 1400px) {
     .hero .me {
-      width: 50%;
+      width: 50vw;
       object-fit: cover;
       object-position: 50% 50%;
       z-index: 1;
@@ -173,6 +173,15 @@ body{
   @media screen and (max-width: 1400px) {
     .hero .me {
       width: 60%;
+      object-fit: cover;
+      object-position: 50% 50%;
+      z-index: 1;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .hero .introduction {
+      width: 60vw;
       object-fit: cover;
       object-position: 50% 50%;
       z-index: 1;
