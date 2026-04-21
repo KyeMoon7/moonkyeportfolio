@@ -366,6 +366,7 @@ footer svg:hover {
 
 }
 
-cardart:hover{
+.cardart:hover{
   transform: none;
 }
+
