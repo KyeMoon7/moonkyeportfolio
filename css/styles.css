@@ -256,96 +256,7 @@ body{
     padding-bottom: 20vh;
   }
 }
-  /*.objectifText {
-  font-size: 80px;
-  text-align: center;
-    color: white;
-    font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
 
-}
-.objectifText a{
-    text-decoration: none;
-    color: var(--third);
-  }
-
-.objectif {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-top: 20vh;
-  padding-bottom: 20vh;
-  
-}
-.objectifText a:hover{
-    text-decoration: none;
-    color: var(--secondary);
-    transition: .3s;
-  }
-
-@media screen and (max-width: 992px) {
-  .objectifText {
-    font-size: 4vw;
-    top: 20%;
-  }
-}
-@media screen and (min-width: 2300px) {
-  .objectif {
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-top: 50vh;
-    padding-bottom: 20vh;
-  }
-} */
-
-/*.anim{
-  padding: 10%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-family: "Tektur", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  color: var(--primary);
-  font-size: 4vw;
-}
-
-.anim .anim-img{
-  width: 50vw;
-}
-
-.anim-title{
-  text-decoration: none;
-}
-
-
-.anim-title{
-  position: relative;
-  color: var(--fourth);
-  text-decoration: none;
-}
-
-.anim-title::after{
-  content: "";
-  width: 0;
-  height: 3px;
-  position: absolute;
-  display: block;
-  bottom: 0;
-  left: 0;
-  background-color: var(--secondary);
-  transition: 0.3s;
-}
-
-.anim-title:hover::after{
-  width: 100%;
-}*/
 
 .card {
   border-radius: 25px;
@@ -365,6 +276,9 @@ body{
   box-shadow: 0 0 15px 3px var(--secondary);
 }
 
+.project-title{
+    text-decoration: underline var(--primary);
+}
 
 .portfolio-title {
   font-size: 80px;
@@ -373,9 +287,10 @@ body{
   text-align: center;
   color: var(--third);
   font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
 }
 
 
@@ -392,6 +307,7 @@ body{
   text-shadow: 4px 4px var(--primary);
   font-weight: bold;
   color: var(--third);
+    text-decoration: underline;
 }
 
 footer {
@@ -402,6 +318,7 @@ footer {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+
 }
 footer .py-2 {
   align-items: center;
