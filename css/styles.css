@@ -99,7 +99,7 @@ body{
     object-fit: cover;
     object-position: 50% 100%;
     z-index: 1;
-
+    padding: 0;
   }
  
 
@@ -148,11 +148,22 @@ body{
 
   @media screen and (max-width: 992px) {
     .hero .introduction {
+      
       font-size: 4vw;
       left: 30%;
       top: 27%;
 
     }
+    .hero .me{
+      position: absolute;
+      width: 100vw;
+            display: flex;
+      align-items: center;
+    }
+
+   
+ 
+    
   }
 
 
