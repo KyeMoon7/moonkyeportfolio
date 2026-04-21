@@ -7,8 +7,7 @@
 
 body{
   background-image: url(../medias/background.png);
-  background-size: 100vw;
-    margin:0
+  background-size: 100%;
 }
   
 .navbar {
