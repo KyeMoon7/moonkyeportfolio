@@ -4,7 +4,8 @@
     --third: #41EAD4;
     --fourth:#ff206e;
   }
-html{
+ 
+body{
   padding: 0;
 }
 body{
@@ -147,30 +148,18 @@ body{
   @media screen and (max-width: 992px) {
     .hero .introduction {
       font-size: 4vw;
-      left: 30vw;
-      top: 27vh;
+      left: 30%;
+      top: 27%;
 
     }
   }
 
-  @media screen and (max-width: 992px) {
-    .hero .me {
-      height: 30vh;
-      width: 100vw;
-    }
 
-  }
-
-
-  @media screen and (max-width: 992px) {
-    .hero {
-      height: 50vh;
-    }
-  }
 
   @media screen and (min-width: 1400px) {
     .hero .me {
-      width: 50vw;
+      width: 100%;
+      height: 80%;
       object-fit: cover;
       object-position: 50% 50%;
       z-index: 1;
@@ -178,16 +167,19 @@ body{
   }
   @media screen and (max-width: 1400px) {
     .hero .me {
-      width: 60%;
+       width: 100%;
+      height: 30%;
       object-fit: cover;
       object-position: 50% 50%;
       z-index: 1;
+      left:0%;
     }
   }
 
   @media screen and (min-width: 1400px) {
     .hero .introduction {
       width: 50vw;
+      height: 10%;
       object-fit: cover;
       object-position: 50% 50%;
       z-index: 1;
