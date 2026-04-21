@@ -8,12 +8,13 @@
 body{
   background-image: url(../medias/background.png);
   background-size: 100vw;
+  
 }
   
 .navbar {
     width: 100%;
     height: 15%;
-    font-size: 25px;
+    font-size: 2vw;
     background-color: #000;
     font-family: "Tektur", sans-serif;
     font-optical-sizing: auto;
@@ -108,7 +109,7 @@ body{
 
   }
   .hero .introduction {
-    font-size: 50px;
+    font-size: 2vw;
     top: 55%;
     left: 30%;
     transform: translate(-50%, -50%);
@@ -176,6 +177,16 @@ body{
       object-fit: cover;
       object-position: 50% 50%;
       z-index: 1;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .hero .introduction {
+      width: 50vw;
+      object-fit: cover;
+      object-position: 50% 50%;
+      z-index: 1;
+
     }
   }
 
