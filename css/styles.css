@@ -5,10 +5,11 @@
   --fourth: #ff206e;
 }
 
-html{
+html {
   overflow-x: hidden;
 }
-*{
+
+* {
   box-sizing: border-box;
 }
 
@@ -116,7 +117,7 @@ body {
   align-items: center;
   flex-direction: row;
   padding: 8vh;
-  
+
 
 }
 
@@ -168,9 +169,10 @@ body {
   .beginning .me {
     width: 100vw;
   }
-  .beginning{
-      padding: 2vh;
-  
+
+  .beginning {
+    padding: 2vh;
+
 
   }
 
@@ -179,7 +181,7 @@ body {
     height: 35vh;
   }
 
-  
+
 
 
 }
@@ -331,10 +333,11 @@ body {
 
 @media screen and (max-width: 500px) {
   .portfolio-title {
-    font-size: 10vw;
+    font-size: 5vw;
+  }
 
   .title-project .project-title {
-    font-size: 10vw;
+    font-size: 8vw;
     text-align: center;
 
   }
@@ -352,9 +355,8 @@ body {
   .navbar-brand {
     font-size: 10vw;
   }
-  }
-
 }
+
 
 
 
