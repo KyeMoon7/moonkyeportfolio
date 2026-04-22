@@ -100,37 +100,30 @@ body {
   opacity: 1;
 }
 
-.hero .container {
-  width: 100vw;
-}
 
-.hero {
-  height: 90vh;
+
+.beginning {
+  height: 100%;
   object-fit: cover;
-  object-position: 50% 100%;
   z-index: 1;
-  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 8vh;
+  
+
 }
 
 
 
-.hero .me {
-  width: 50vw;
-  left: 37.7vw;
-  top: 20vh;
+.beginning .me {
   -webkit-mask-image: linear-gradient(#000, #000, rgba(0, 0, 0, 0));
   mask-image: linear-gradient(#000, rgb(0, 0, 0) 50%, #000, rgba(0, 0, 0, 0));
-  display: inline-block;
-  position: absolute;
-  right: 10vw;
 
 }
 
-.hero .introduction {
+.beginning .introduction {
   font-size: 2vw;
-  top: 55%;
-  left: 40%;
-  transform: translate(-50%, -50%);
   z-index: 2;
   color: white;
   display: inline-block;
@@ -139,16 +132,19 @@ body {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  margin: 0;
+
 }
 
-.hero .name {
-  font-size: 250%;
+.beginning .name {
+  font-size: 5vw;
   line-height: 1;
   color: var(--fourth);
   text-decoration: none;
   font-family: "Audiowide", sans-serif;
   font-weight: 500;
   font-style: normal;
+
 }
 
 .name:hover {
@@ -158,19 +154,26 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .hero .introduction {
-    font-size: 4vw;
+  .beginning .introduction {
+    font-size: 3vw;
 
   }
 
-  .hero .me {
+  .beginning .me {
     width: 100vw;
+  }
+  .beginning{
+      padding: 2vh;
+  
+
   }
 
   .hero {
     display: block;
     height: 35vh;
   }
+
+  
 
 
 }
@@ -263,6 +266,11 @@ body {
 
   }
 
+  .contact-title {
+    opacity: 0;
+
+  }
+
 }
 
 @media screen and (min-width: 2300px) {
@@ -319,14 +327,13 @@ body {
   .portfolio-title {
     font-size: 10vw;
   }
+.container{
+  height: 100%;
+}
 
-  .contact-title {
-    opacity: 0;
-
-  }
 
   .title-project .project-title {
-    font-size: 5vh;
+    font-size: 10vw;
     text-align: center;
 
   }
@@ -337,15 +344,17 @@ body {
 
   .footer-icons svg {
     height: 10vw;
-    justify-content: space-between;
+    justify-content: space-around;
 
   }
+
   .navbar-brand {
     font-size: 10vw;
   }
 
 
 }
+
 
 
 .contact-title {
@@ -386,7 +395,8 @@ footer svg:hover {
 
 .footer-icons {
   display: flex;
-  
+  width: 100vw;
+
 }
 
 
