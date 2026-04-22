@@ -295,7 +295,6 @@ body {
 .card {
   border-radius: 25px;
 
-
 }
 
 .card-img-top {
@@ -371,6 +370,7 @@ body {
 
 
 footer {
+
   height: 100%;
   color: white;
   background-image: linear-gradient(rgba(199, 0, 0, 0) 10%, var(--fourth));
@@ -378,17 +378,19 @@ footer {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  display: flex;
 }
 
 footer .py-2 {
-  align-items: center;
-  display: flex;
+
+  padding-left: 0;
 }
 
 footer svg {
   fill: white;
   transition: 0.3s;
   padding-right: 1em;
+
 }
 
 footer svg:hover {
@@ -398,7 +400,8 @@ footer svg:hover {
 .footer-icons {
   display: flex;
   width: 100vw;
-
+align-items: center;
+justify-content: space-between;
 }
 
 
