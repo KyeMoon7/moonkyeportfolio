@@ -378,7 +378,6 @@ footer {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  border: #ae00ff 4px solid;
 }
 
 footer .py-2 {
@@ -442,7 +441,7 @@ footer svg:hover {
 .swiper {
   height: 100%;
   width: 100%;
-  border: #ff206e 4px solid;
+
 }
 
 .swiper-slide {
