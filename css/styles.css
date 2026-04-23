@@ -1,9 +1,11 @@
-*{
+* {
 
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
 :root {
   --primary: #ae00ff;
   --secondary: #fbff00;
@@ -11,10 +13,12 @@
   --fourth: #ff206e;
 }
 
-html, body{
-height: 100%;
-margin: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
+
 html {
   overflow-x: hidden;
 }
@@ -329,7 +333,7 @@ body {
 }
 
 .portfolio-title {
-  font-size: 80px;
+  font-size: 60px;
   text-shadow: 4px 4px var(--primary);
   font-weight: bold;
   text-align: center;
@@ -398,14 +402,14 @@ footer svg:hover {
 
 .footer-icons {
   display: flex;
- 
+
   align-items: center;
   justify-content: space-between;
 
 }
 
 footer {
-    color: white;
+  color: white;
   background-image: linear-gradient(rgba(199, 0, 0, 0) 10%, var(--fourth));
   font-family: "Tektur", sans-serif;
   font-optical-sizing: auto;
@@ -413,14 +417,18 @@ footer {
   font-style: normal;
   margin-top: auto;
   padding: 0px;
+
+}
+
+footer .container {
+  min-height: 35vh;
 }
 
 .container {
-  min-height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+
 
 }
 
@@ -461,6 +469,7 @@ footer {
 .swiper {
   height: 100%;
   width: 100%;
+  padding-bottom: 5vh;
 
 }
 
@@ -532,4 +541,19 @@ footer {
 }
 
 
+.about{
+  margin: 5vh;
+}
+.about-title {
+  font-size: 4vw;
+  text-shadow: 4px 4px var(--primary);
+  font-weight: bold;
+  text-align: center;
+  color: var(--third);
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 
+
+}
