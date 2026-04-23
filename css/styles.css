@@ -315,8 +315,8 @@ body {
   border: var(--third) solid 2px;
   object-fit: cover;
   height: 500px;
-
   transition: 0.3s;
+
 }
 
 .card-img-top:hover {
@@ -441,9 +441,10 @@ footer .container {
 .card-img-top-video {
   border-radius: 25px;
   border: var(--third) solid 2px;
+  box-shadow: 0 0 15px 3px var(--secondary);
   object-fit: cover;
   height: 100%;
-  width: 100%;
+width: 100%;
 }
 
 .card-img-top-art {
@@ -560,4 +561,14 @@ footer .container {
   font-display: swap;
   margin:10px 0 10px 0 ;
   text-align: justify;
+}
+.abouttext a{
+  text-decoration: none;
+  color: var(--third);
+}
+
+.abouttext a:hover {
+  text-decoration: none;
+  color: var(--secondary);
+  transition: .3s;
 }
