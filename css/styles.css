@@ -1,3 +1,9 @@
+*{
+  border:#41EAD4 solid 1px ;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --primary: #ae00ff;
   --secondary: #fbff00;
@@ -5,21 +11,22 @@
   --fourth: #ff206e;
 }
 
+html, body{
+height: 100%;
+margin: 0;
+}
 html {
   overflow-x: hidden;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   background-image: url(../medias/background.png);
   background-size: 100%;
   background-repeat: repeat-y;
   overflow-x: hidden;
-  margin: 0;
-  width: 100%;
+
 
 }
 
@@ -279,6 +286,12 @@ body {
 
   }
 
+  .title-project .project-title {
+    font-size: 8vw;
+    text-align: center;
+
+  }
+
 }
 
 @media screen and (min-width: 2300px) {
@@ -335,19 +348,16 @@ body {
     font-size: 5vw;
   }
 
-  .title-project .project-title {
-    font-size: 8vw;
-    text-align: center;
 
-  }
 
   .mail {
     font-size: 4vw;
   }
 
+
   .footer-icons svg {
     height: 10vw;
-    justify-content: space-around;
+
 
   }
 
@@ -370,8 +380,6 @@ body {
 
 
 footer {
-
-  height: 100%;
   color: white;
   background-image: linear-gradient(rgba(199, 0, 0, 0) 10%, var(--fourth));
   font-family: "Tektur", sans-serif;
@@ -379,6 +387,9 @@ footer {
   font-weight: 200;
   font-style: normal;
   display: flex;
+  margin-top: auto;
+  padding: 0px;
+
 }
 
 footer .py-2 {
@@ -389,7 +400,6 @@ footer .py-2 {
 footer svg {
   fill: white;
   transition: 0.3s;
-  padding-right: 1em;
 
 }
 
@@ -399,9 +409,8 @@ footer svg:hover {
 
 .footer-icons {
   display: flex;
-  width: 100vw;
-align-items: center;
-justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
@@ -513,3 +522,12 @@ justify-content: space-between;
   }
 
 }
+
+.container {
+  min-height: 35vh;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
