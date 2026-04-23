@@ -1,5 +1,5 @@
 *{
-  border:#41EAD4 solid 1px ;
+
   margin:0;
   padding: 0;
   box-sizing: border-box;
@@ -379,18 +379,7 @@ body {
 
 
 
-footer {
-  color: white;
-  background-image: linear-gradient(rgba(199, 0, 0, 0) 10%, var(--fourth));
-  font-family: "Tektur", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  display: flex;
-  margin-top: auto;
-  padding: 0px;
 
-}
 
 footer .py-2 {
 
@@ -409,12 +398,31 @@ footer svg:hover {
 
 .footer-icons {
   display: flex;
+ 
   align-items: center;
   justify-content: space-between;
+
 }
 
+footer {
+    color: white;
+  background-image: linear-gradient(rgba(199, 0, 0, 0) 10%, var(--fourth));
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: auto;
+  padding: 0px;
+}
 
+.container {
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 
+}
 
 
 .project-title {
@@ -523,11 +531,5 @@ footer svg:hover {
 
 }
 
-.container {
-  min-height: 35vh;
 
-  display: flex;
-  flex-direction: column;
-
-}
 
