@@ -557,3 +557,14 @@ footer .container {
 
 
 }
+
+.abouttext{
+  font-size: 1vw;
+  color: white;
+ font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  margin:10px 0 10px 0 ;
+  text-align: justify;
+}
