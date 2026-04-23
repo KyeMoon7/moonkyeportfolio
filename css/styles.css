@@ -19,9 +19,6 @@ body {
   margin: 0;
 }
 
-html {
-  overflow-x: hidden;
-}
 
 
 
@@ -30,8 +27,6 @@ body {
   background-size: 100%;
   background-repeat: repeat-y;
   overflow-x: hidden;
-
-
 }
 
 .navbar {
@@ -43,6 +38,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+    transition-duration: 0.3s;
 }
 
 .navbar-brand {
@@ -64,7 +60,6 @@ body {
 .navbar-collapse {
   justify-content: flex-end;
   padding-right: 5%;
-  z-index: 3;
 
 }
 
@@ -76,6 +71,7 @@ body {
 .navbar .nav-link {
   color: var(--third);
   font-style: normal;
+  
 }
 
 .navbar .nav-item {
@@ -417,7 +413,6 @@ footer {
   font-style: normal;
   margin-top: auto;
   padding: 0px;
-
 }
 
 footer .container {
@@ -541,11 +536,9 @@ footer .container {
 }
 
 
-.about{
-  margin: 5vh;
-}
+
 .about-title {
-  font-size: 4vw;
+  font-size: 3vw;
   text-shadow: 4px 4px var(--primary);
   font-weight: bold;
   text-align: center;
