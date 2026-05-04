@@ -1,3 +1,2 @@
 # BoustanyKyePortfolioFinale.github.io
-
-https://kyemoon7.github.io/BoustanyKyePortfolioFinale.github.io/
+git remote set-url origin https://github.com/moonkye
