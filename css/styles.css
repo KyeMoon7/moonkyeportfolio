@@ -33,7 +33,6 @@ body {
   width: 100%;
   height: 15%;
   font-size: 2vw;
-  background-color: #000;
   font-family: "Tektur", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -42,6 +41,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 1;
+  background-color: #000;
 }
 
 .navbar-brand {
@@ -54,15 +54,22 @@ body {
   font-family: "Audiowide", sans-serif;
   font-weight: 500;
   font-style: normal;
+  
 }
 
 .navbar-brand:hover {
   color: var(--secondary);
 }
 
+.Hamburger {
+  background-color: #000000;
+
+}
+
 .navbar-collapse {
   justify-content: flex-end;
   padding-right: 5%;
+
 
 }
 
@@ -74,7 +81,7 @@ body {
 .navbar .nav-link {
   color: var(--third);
   font-style: normal;
-  
+
 }
 
 .navbar .nav-item {
@@ -122,13 +129,12 @@ body {
 .beginning {
   height: 100%;
   object-fit: cover;
-  z-index: 1;
   display: flex;
   align-items: center;
   flex-direction: row;
   padding: 8vh;
-
-
+  margin-top: 10vh;
+  position: relative;
 }
 
 
@@ -141,7 +147,7 @@ body {
 
 .beginning .introduction {
   font-size: 2vw;
-  z-index: 2;
+
   color: white;
   display: inline-block;
   position: relative;
@@ -191,8 +197,20 @@ body {
     height: 35vh;
   }
 
+  .container .abouttext {
+    font-size: 4vw;
+  }
 
+  .container .about-title {
+    font-size: 7vw;
+  }
 
+  .Hamburger {
+    font-size: 4vw;
+  }
+  .card{
+    width: 90vw;
+  }
 
 }
 
@@ -213,7 +231,6 @@ body {
     width: 50vw;
     object-fit: cover;
     object-position: 50% 50%;
-    z-index: 1;
 
   }
 }
@@ -235,7 +252,9 @@ body {
     height: 50vh;
   }
 
+
 }
+
 
 
 
@@ -332,8 +351,9 @@ body {
 }
 
 .portfolio-title {
+
   font-size: 60px;
-   text-shadow: 10px 10px 6px var(--primary);
+  text-shadow: 10px 10px 6px var(--primary);
   font-weight: bold;
   text-align: center;
   color: var(--third);
@@ -426,8 +446,7 @@ footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
+  margin-top: 100px;
 }
 
 
@@ -447,7 +466,7 @@ footer .container {
   box-shadow: 0 0 15px 3px var(--secondary);
   object-fit: cover;
   height: 100%;
-width: 100%;
+  width: 100%;
 }
 
 .card-img-top-art {
@@ -463,16 +482,22 @@ width: 100%;
 
 .swiper-section {
   height: 100%;
+
+
 }
+
 
 .swiper {
   height: 100%;
   width: 100%;
   padding-bottom: 5vh;
+  position: relative;
+  z-index: -1;
 
 }
 
 .swiper-slide {
+
   height: 100%;
   object-fit: cover;
   text-align: center;
@@ -555,17 +580,18 @@ width: 100%;
 
 }
 
-.abouttext{
+.abouttext {
   font-size: 2vw;
   color: white;
- font-family: 'Audiowide';
+  font-family: 'Audiowide';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  margin:10px 0 10px 0 ;
+  margin: 10px 0 10px 0;
   text-align: justify;
 }
-.abouttext a{
+
+.abouttext a {
   text-decoration: none;
   color: var(--third);
 }
