@@ -176,10 +176,11 @@ body {
 
 @media screen and (max-width: 992px) {
   .beginning {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-top: 15vh;
 
   }
+
 
   .beginning .me {
     width: 100vw;
@@ -211,7 +212,7 @@ body {
     width: 90vw;
   }
   .beginning .introduction{
-        font-size: 4vw ;
+        font-size: 5vw ;
   }
  .beginning .name{
         font-size: 6vw ;
@@ -316,7 +317,10 @@ body {
     font-size: 4vw;
 
   }
+   section.objectif {
+    padding-top: 0px;
 
+  }
   .contact-title {
     opacity: 0;
 
