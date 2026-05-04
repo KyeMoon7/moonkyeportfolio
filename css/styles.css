@@ -134,7 +134,6 @@ body {
   flex-direction: row;
   padding: 8vh;
   margin-top: 10vh;
-  position: relative;
 }
 
 
@@ -177,8 +176,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .beginning .introduction {
+  .beginning {
     font-size: 3vw;
+    margin-top: 15vh;
 
   }
 
@@ -233,6 +233,11 @@ body {
     object-position: 50% 50%;
 
   }
+    .beginning{
+        margin-top: 20vh;
+  }
+
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -251,7 +256,9 @@ body {
   .hero {
     height: 50vh;
   }
-
+  .beginning{
+    margin-top: 20vw;
+  }
 
 }
 
@@ -266,6 +273,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  text-align: justify;
 
 }
 
