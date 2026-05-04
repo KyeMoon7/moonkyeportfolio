@@ -146,7 +146,6 @@ body {
 
 .beginning .introduction {
   font-size: 2vw;
-
   color: white;
   display: inline-block;
   position: relative;
@@ -211,7 +210,13 @@ body {
   .card{
     width: 90vw;
   }
-
+  .beginning .introduction{
+        font-size: 4vw ;
+  }
+ .beginning .name{
+        font-size: 6vw ;
+  }
+  
 }
 
 
@@ -231,6 +236,7 @@ body {
     width: 50vw;
     object-fit: cover;
     object-position: 50% 50%;
+
 
   }
     .beginning{
