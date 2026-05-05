@@ -383,6 +383,9 @@ body {
 }
 
 
+.mail{
+  font-size: 2vw;
+}
 
 @media screen and (max-width: 500px) {
   .portfolio-title {
@@ -418,7 +421,9 @@ body {
 
 }
 
-
+/*footer .mailicon:hover{
+  fill: white;
+}*/
 
 
 
