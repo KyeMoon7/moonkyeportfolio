@@ -18,8 +18,8 @@ const mySwiperOne = new Swiper('.mySwiper', {
 });
 
 (function () {
-    const svgElement = document.querySelectorAll('#mail');
-    const statusElement = document.querySelectorAll('#gmail');
+    const svgElement = document.getElementById('mail');
+    const statusElement = document.getElementById('gmail');
     const textToCopy = "kyemoonovechka@gmail.com";
 
     // Function to copy text to clipboard
@@ -35,6 +35,7 @@ const mySwiperOne = new Swiper('.mySwiper', {
     // Attach click event to SVG
     svgElement.addEventListener('click', () => {
         copyText(textToCopy);
+
         alert("✅ email copied! / ✅ courriel copié!"
         );
     });
